@@ -6,8 +6,8 @@
 body
 {
 	font-family: tahoma;
-	color: d9bfeb ;
-	background-color: 4ba6bd;
+	color: #d9bfeb ;
+	background-color: #4ba6bd;
 	margin-left: 75px;
 	margin-right: 75px;
 }
@@ -28,7 +28,7 @@ h1, h2, h3
 a
 {
 	text-decoration: none;
-	color: cdd883;
+	color: #cdd883;
 }
 
 a:hover
