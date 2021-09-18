@@ -15,6 +15,7 @@ body
 header, footer
 {
 	text-align: center;
+	font-weight: bold;
 }
 
 h1, h2, h3
@@ -54,4 +55,33 @@ nav
 
 .smaller-image{
 	width:500px
+}
+
+thead , tfoot
+{
+	background-color:  rgb(3, 61, 109);
+}
+
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.right
+{
+	text-align: right;
+}
+.same-color{
+	background-color: #4ba6bd;
+	font-weight: bolder;
+	vertical-align: middle;
+
+}
+
+tbody tr:nth-child(odd) 
+{
+	background-color: rgb(7, 126, 223);
 }
